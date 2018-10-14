@@ -1,9 +1,9 @@
-name: BlacklistmcMMO
-main: me.noeffort.blacklistmcmmo.Main
-version: 0.0.5
+name: BlacklistItems
+main: me.noeffort.blacklistitems.Main
+version: 0.3.8
 
 depends: [mcMMO]
-description: Stop the usage of items in mcMMO
+description: Stop the usage of repairable items in mcMMO and anvils
 author: NoEffort 
 
 commands:
@@ -11,7 +11,3 @@ commands:
     aliases: bl
     description: Blacklist items
     usage: "Usage: /<command> [metadata]"
-  reloadmmoblacklist:
-    aliases: rmmo
-    description: Reloads the configs for the plugn.
-    usage: "Usage: /<command>"
